@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.card{
+    margin-top: 50px;
+    height: 600px;
+    width: 360px;
+    background-color:hsl(216, 50%, 16%) ;
+    border-radius: 10px;
+}
+
+.nft{
+    margin-left: 25px;
+    margin-top:15px;
+    margin-bottom: 10px;
+    padding: 5px;
+    float: center;
+    height: 300px;
+    border-radius: 15px;
+}
+
+span{
+    color: white;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    font-family: 'Noto Sans', sans-serif;
+    }
+
+.desc{
+    margin: 15px;
+    margin-left: 30px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.cost{
+    color:hsl(178, 100%, 50%) ;
+    font-weight: 400px;
+    margin-top: 15px;
+    margin-left: 30px;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.time{
+    color:hsl(215, 51%, 70%);
+    display: inline;
+    margin:80px;
+}
+
+.creator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 25px;
+    border-top: hsl(215, 32%, 27%) solid 1px;
+    padding: 5px;
+    max-width: 80%;
+    color: hsl(215, 51%, 70%);
+    
+}
+
+p{
+    color: white;}
+
+.attribution{
+    margin-top: 5px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.avatar{
+    border: white solid 1px;
+    border-radius: 50%;
+}
+
+.eth{
+    margin: 0;
+    font-size: 18px;
+    color: cyan;
+    text-shadow: 0 0 2px cyan;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: cyan;
+}
+
+img.nft:hover{
+    transition: .3s ease;
+    opacity: .5;
+}
