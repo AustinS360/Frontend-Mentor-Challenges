@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Outfit:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Noto+Sans&display=swap');
+
+.card{
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    margin-left: 300px;
+    margin-top: 100px;
+    border-radius: 55px;
+}
+
+.sedan{
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.suv{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury{
+   background-color:hsl(179, 100%, 13%);
+   border-top-right-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 48px;
+    color: white;
+    margin:30px;
+    margin-left: 60px;
+    margin-top: 15px;
+}
+
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1vw;
+    color: white;
+    text-align:left;
+    margin: 25px;
+    margin-left: 60px;
+    margin-right: 60px;
+    height: 25%;
+}
+
+img{
+    margin: 15px;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+button{
+    margin: 20px;
+    margin-left: 55px;
+    width: 160px;
+    height: 55px;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    border: white 3px solid;
+}
+
+span{
+    font-size: 15px;
+    padding: 30px;
+}
+
+.luxury span{
+    color: hsl(179, 100%, 13%);
+
+}
+
+.sedan span{
+    color: hsl(31, 77%, 52%);
+}
+
+.suv span{
+    color: hsl(184, 100%, 22%);}
+
+
+    .luxury > button:hover {
+      background-color:hsl(179, 100%, 13%);
+    }
+
+    .suv > button:hover {
+        background-color: hsl(184, 100%, 22%);
+      }
+
+      .sedan > button:hover {
+        background-color:hsl(31, 77%, 52%);
+      }
+
+    span:hover{
+        color: white;
+    }
+
+    .attribution{
+        margin-right: 110px;
